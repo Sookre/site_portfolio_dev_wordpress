@@ -1,0 +1,160 @@
+/*   
+Theme Name: Portfolio
+Theme URI: http://localhost/wordpress2/
+Description: thème portfolio développeur web
+Author: Yoann Cauhepe
+Author URI: votre URL
+Version: 1.0
+.
+Commentaires généraux / Information de licences si applicable.
+.
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none!important;
+    list-style-type: none!important;
+}
+
+body{
+    font-family: 'Cairo', sans-serif;
+    font-size: 1rem;
+    background-color: #f1eae0;
+}
+
+.link-article:hover {
+    color: #94A7AE !important;
+}
+
+.zone-haut{
+    min-height: 150px;
+ 
+}
+
+/* .zone-centre{
+     min-height: 200px; 
+} */
+
+.zone-bas{
+    min-height: 120px;
+}
+
+.zone-bas h2{
+    text-align: center;
+}
+
+.zone-end{
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C0A9BD;
+}
+
+.zone-end p{
+    margin: 0;
+}
+
+.navigation-wp{
+    background-color: #C0A9BD;
+}
+
+.main-wp{
+    min-height: 700px;
+}
+
+.widget{
+    list-style-type: none !important;
+    min-height: 0!important;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-chats{
+    display: flex;
+    justify-content: center;
+}
+
+ #menu-menu-principal{
+    display: flex;
+    justify-content: center;
+       
+} 
+
+#menu-menu-principal{
+    display: flex;
+    margin-bottom: 0!important;
+    padding-left: 0!important;
+}
+
+#menu-menu-principal li{
+    list-style-type: none;
+    padding: 0 0.5em;
+}
+
+#menu-menu-principal li a{
+    color: rgb(29, 29, 29);
+}
+
+#menu-menu-principal li a:hover{
+    color: #141414;
+}
+
+
+#menu-menu-administratif{
+    display: flex;
+    margin-bottom: 0!important;
+    padding-left: 0!important;
+}
+
+#menu-menu-administratif li{
+    list-style-type: none;
+    padding: 0 0.5em;
+}
+
+#menu-menu-administratif li a{
+    color: rgb(20, 20, 20);
+}
+
+#menu-menu-administratif li a:hover{
+    color: #d5d5db;
+}
+
+
+.addtoany_share_save_container{
+    margin: 0 0 10px 0 !important;
+}
+
+.comment-form-comment{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-submit .submit{
+    padding: 7px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #1a1a1a;
+    color: #d5d5db;
+}
+
+.comment{
+    margin: 0.45em 0 !important;
+    list-style-type: none;
+}
+
+.img-thumbnail img{
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+
+#mega-menu-wrap-primary{
+    margin-left: 70px !important;
+}
